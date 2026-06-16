@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { FiMail, FiLock, FiZap } from 'react-icons/fi';
 import toast from 'react-hot-toast';
 import { useAuth } from '../context/AuthContext';
-import Button from '../components/common/CustomButton';
+import Button from '../components/common/Button';
 
 const Login = () => {
   const [form, setForm] = useState({ email: '', password: '' });

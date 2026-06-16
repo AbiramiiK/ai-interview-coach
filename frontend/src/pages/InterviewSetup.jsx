@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { FiCode, FiServer, FiLayers, FiDatabase, FiCpu, FiFeather, FiGitBranch, FiFigma } from 'react-icons/fi';
 import toast from 'react-hot-toast';
 import { interviewService } from '../services/interviewService';
-import Button from '../components/common/CustomButton';
+import Button from '../components/common/Button';
 
 const roles = [
   { name: 'Frontend Developer', icon: FiCode },
